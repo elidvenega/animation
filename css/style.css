@@ -1,0 +1,85 @@
+body {
+  background-color: #111116;
+  font-family: sans-serif,monospace;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.all {
+  display: flex;
+}
+
+#myDIV {
+  margin: 25px;
+  width: 500px;
+  height: 100px;
+  position: relative;
+  font-size: 25px;
+  animation-name: mymove;
+  /* Chrome, Safari, Opera */
+  animation-duration: 5s;
+  /* Chrome, Safari, Opera */
+  animation-name: mymove;
+  background-color: #616161;
+}
+
+@keyframes mymove {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 200px;
+  }
+}
+
+#second {
+  margin: 25px;
+  width: 550px;
+  height: 100px;
+  position: relative;
+  font-size: 25px;
+  animation-name: secondmove;
+  /* Chrome, Safari, Opera */
+  animation-duration: 5s;
+  /* Chrome, Safari, Opera */
+  animation-name: mymove;
+  animation-duration: 5s;
+  background-color: #1D976C;
+}
+
+@keyframes secondmove {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 200px;
+  }
+}
+
+#third {
+  margin: 25px;
+  width: 550px;
+  height: 100px;
+  position: relative;
+  font-size: 25px;
+  animation-name: secondmove;
+  /* Chrome, Safari, Opera */
+  animation-duration: 5s;
+  /* Chrome, Safari, Opera */
+  animation-name: mymove;
+  animation-duration: 5s;
+  background-color: #134E5E;
+}
+
+@keyframes secondmove {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 200px;
+  }
+}
